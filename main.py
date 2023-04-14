@@ -60,7 +60,7 @@ if __name__ == "__main__":
         if ext == ".HEIC" or ext == ".heic":
         # nowtime = datetime.now().strftime('%Y%m%d%H%M%S%f')))
             heic_chenge(os.path.join(readPath, file), file_name)
-        else:
+        elif ext == ".JPG" or ext == ".JPEG":
             save(os.path.join(readPath, file), file_name)
 
         resize_image(file_name)
