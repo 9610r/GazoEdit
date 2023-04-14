@@ -1,0 +1,6 @@
+cffi==1.15.1
+numpy==1.24.2
+opencv-contrib-python==4.7.0.72
+Pillow==9.2.0
+pycparser==2.21
+pyheif @ git+https://github.com/david-poirier-csn/pyheif.git@721ef2c17347ccde7700d35e7d3b088d14fbae23
